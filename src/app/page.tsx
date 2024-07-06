@@ -6,7 +6,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { HOW_CAN_I_SUPPORT_ITEMS } from "@/constants/homeConsts";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -42,8 +41,8 @@ const Home = () => (
       </div>
     </section>
 
-    <section className="flex flex-col flex-nowrap container px-4 py-8 items-center gap-8 sm:flex-row">
-      <div className="shrink-0 grow">
+    <section className="flex flex-col flex-nowrap container px-4 py-8 items-center gap-16 sm:flex-row">
+      <div className="shrink-0">
         <Image
           src="/assets/images/D_Image.png"
           alt="Denice Sakakeeny"
@@ -56,32 +55,28 @@ const Home = () => (
         <p className="uppercase text-xs">Chef Problem Solver</p>
         <p className="text-5xl font-bold my-4">How I Can Support You</p>
 
-        <div className="flex max-w-[600px] w-full">
-          <Swiper
-            slidesPerView={1}
-            modules={[Pagination]}
-            loop
-            spaceBetween={30}
-            pagination={{ clickable: true }}
-            autoHeight
-            autoplay={{
-              delay: 5000,
-              disableOnInteraction: false,
-            }}
-          >
-            {HOW_CAN_I_SUPPORT_ITEMS.map((p, index) => {
-              return (
-                <SwiperSlide className="pb-8" key={index}>
-                  <p className="font-bold mb-2">{p.header}</p>
-                  <p className="text-base mb-2">{p.info}</p>
-                  <p className="text-base mb-2">{p.additional}</p>
-                </SwiperSlide>
-              );
-            })}
-          </Swiper>
-        </div>
-
-        <div className="flex flex-row" />
+        <Swiper
+          className="max-w-[400px] lg:max-w-[600px] xl:max-w-[800px] 2xl:max-w-[1000px] w-full"
+          slidesPerView={1}
+          modules={[Pagination]}
+          loop
+          pagination={{ clickable: true }}
+          autoHeight
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+        >
+          {HOW_CAN_I_SUPPORT_ITEMS.map((p, index) => {
+            return (
+              <SwiperSlide className="flex grow-0 shrink pb-8" key={index}>
+                <p className="font-bold mb-2">{p.header}</p>
+                <p className="text-base mb-2">{p.info}</p>
+                <p className="text-base mb-2">{p.additional}</p>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
       </div>
     </section>
   </article>

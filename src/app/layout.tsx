@@ -1,7 +1,7 @@
 import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "./globals.scss";
 import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="en">
     <body className={inter.className}>
-      <main className="flex min-h-screen flex-col">
+      <main className="flex min-h-screen flex-col min-w-0 max-w-full">
         <header className="flex flex-row justify-center py-4 mb-4">
           <div className="flex flex-row container px-4 w-full justify-between items-center">
             <div className="logo flex flex-row items-center gap-4">

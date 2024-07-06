@@ -49,3 +49,5 @@ export const TESTIMONIALS = [
     testimonial: "Denice is the best.",
   },
 ];
+
+export default { HOW_CAN_I_SUPPORT_ITEMS, TESTIMONIALS };
