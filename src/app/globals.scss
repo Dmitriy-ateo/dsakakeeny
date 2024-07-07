@@ -10,6 +10,32 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-end-rgb)) url("/public/assets/images/blurred_bg.jpg") no-repeat;
-  background-size: cover;
+  background: rgb(var(--background-end-rgb)) url("/assets/images/blurred_bg.jpg") no-repeat;
+  background-size: 300%;
+  background-position: 45% 15%;
+  animation: infinite 60s linear animateBg;
 }
+
+@keyframes animateBg {
+    0% {
+      background-position: 45% 15%;
+      background-size: 300%;
+    }
+    25% {
+      background-position: 50% 70%;
+      background-size: 200%;
+    }
+    50% {
+      background-position: 100% 100%;
+      background-size: 100%;
+    }
+    75% {
+      background-position: 70% 50%;
+      background-size: 200%;
+    }
+    100% {
+      background-position: 45% 15%;
+      background-size: 300%;
+    }
+}
+

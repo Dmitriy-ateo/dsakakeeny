@@ -3,6 +3,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.scss";
 import Image from "next/image";
+import {
+  FaLinkedinIn,
+  FaRegCalendarPlus,
+  FaRegEnvelope,
+} from "react-icons/fa6";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -50,6 +55,42 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
           </div>
         </header>
         {children}
+        <footer className="flex flex-col items-center py-4 mt-4 gap-4">
+          <div className="flex flex-row flex-nowrap justify-center gap-2">
+            <a
+              href="http://www.linkedin.com/in/denice"
+              target="_blank"
+              rel="noreferrer"
+              className="p-2 border border-gray-800 rounded-full"
+            >
+              <FaLinkedinIn size={24} />
+            </a>
+            <a
+              href="mailto:denice@dsakakeeny.com"
+              target="_blank"
+              rel="noreferrer"
+              className="p-2 border border-gray-800 rounded-full"
+            >
+              <FaRegEnvelope size={24} />
+            </a>
+            <a
+              href="https://calendly.com/denicesak"
+              target="_blank"
+              rel="noreferrer"
+              className="p-2 border border-gray-800 rounded-full"
+            >
+              <FaRegCalendarPlus size={24} />
+            </a>
+          </div>
+          <p className="text-base">
+            We are not lawyers. We are not tax experts.{" "}
+            <b>We do not dispense investment advice.</b>
+          </p>
+          <p className="text-xs">
+            &copy; {new Date().getFullYear()} Denice Sakakeeny & Associates LLC,
+            all rights reserved.
+          </p>
+        </footer>
       </main>
     </body>
   </html>
