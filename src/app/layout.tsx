@@ -21,7 +21,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
     <body className={inter.className}>
       <main className="flex min-h-screen flex-col min-w-0 max-w-full">
         <header className="flex flex-row justify-center py-4 mb-4">
-          <div className="flex flex-row container px-4 w-full justify-between items-center">
+          <div className="flex flex-col sm:flex-row container px-4 w-full justify-between items-center gap-4">
             <div className="logo flex flex-row items-center gap-4">
               <Image
                 src="/assets/images/icons/chess_icon.svg"
@@ -37,7 +37,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
               </div>
             </div>
             <nav>
-              <ul className="flex flex-row flex-wrap justify-end gap-8 text-xs uppercase">
+              <ul className="flex flex-row flex-wrap justify-center sm:justify-end gap-4 sm:gap-8 text-xs uppercase">
                 <li className="nav__item">
                   <a href="/">Hi, I&apos;m Denice</a>
                 </li>
@@ -55,7 +55,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
           </div>
         </header>
         {children}
-        <footer className="flex flex-col items-center py-4 mt-4 gap-4">
+        <footer className="flex flex-col items-center p-4 mt-4 gap-4">
           <div className="flex flex-row flex-nowrap justify-center gap-2">
             <a
               href="http://www.linkedin.com/in/denice"
@@ -82,11 +82,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
               <FaRegCalendarPlus size={24} />
             </a>
           </div>
-          <p className="text-base">
+          <p className="text-base text-center">
             We are not lawyers. We are not tax experts.{" "}
             <b>We do not dispense investment advice.</b>
           </p>
-          <p className="text-xs">
+          <p className="text-xs text-center">
             &copy; {new Date().getFullYear()} Denice Sakakeeny & Associates LLC,
             all rights reserved.
           </p>

@@ -10,7 +10,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-end-rgb)) url("/assets/images/blurred_bg.jpg") no-repeat;
+  background: rgb(var(--background-end-rgb)) url("/assets/images/blurred_bg.jpg") repeat;
   background-size: 300%;
   background-position: 45% 15%;
   animation: infinite 60s linear animateBg;
