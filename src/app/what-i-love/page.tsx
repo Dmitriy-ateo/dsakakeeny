@@ -60,7 +60,7 @@ const WhatILovePage = () => (
     <section className="flex flex-col flex-nowrap container px-4 py-8 items-center sm:items-start gap-16 sm:flex-row">
       <div className="shrink lg:shrink-0 min-w-[250px]">
         <Image
-          src="/assets/images/Chess_2.png"
+          src="/assets/images/Chess_3.png"
           alt="Denice Sakakeeny"
           width={410}
           height={455}
@@ -129,7 +129,7 @@ const WhatILovePage = () => (
       </div>
       <div className="flex flex-col items-center gap-4 shrink lg:shrink-0 min-w-[250px] order-1 sm:order-2">
         <Image
-          src="/assets/images/Chess_3.png"
+          src="/assets/images/Chess_2.png"
           alt="Denice Sakakeeny"
           width={410}
           height={455}
