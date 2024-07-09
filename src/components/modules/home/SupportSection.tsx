@@ -39,11 +39,11 @@ const SupportSection = () => (
           disableOnInteraction: false,
         }}
       >
-        {HOW_CAN_I_SUPPORT_ITEMS.map((p, index) => {
+        {HOW_CAN_I_SUPPORT_ITEMS.map((p) => {
           return (
             <SwiperSlide
               className="flex grow-0 shrink pb-8 min-h-[300px] sm:min-h-[200px]"
-              key={index}
+              key={`support_${p.id}`}
             >
               <p className="font-bold mb-2">{p.header}</p>
               <p className="text-base mb-2">{p.info}</p>

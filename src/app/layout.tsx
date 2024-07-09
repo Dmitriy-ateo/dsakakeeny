@@ -1,4 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.scss";

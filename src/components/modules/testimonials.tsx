@@ -40,11 +40,11 @@ const TestimonialSection = () => (
         disableOnInteraction: false,
       }}
     >
-      {TESTIMONIALS.map((p, index) => {
+      {TESTIMONIALS.map((p) => {
         return (
           <SwiperSlide
             className="flex grow-0 shrink pb-10 min-h-[300px]"
-            key={index}
+            key={`slide_${p.id}`}
           >
             <p className="text-base mb-2">{p.testimonial}</p>
             <a className="text-xs font-bold mb-1" href={p.companyLink}>
