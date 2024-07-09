@@ -10,8 +10,8 @@ const WhatILovePage = () => (
   <article className="flex min-h-screen flex-col items-center justify-between">
     <section className="flex flex-col flex-nowrap container px-4 py-8 items-center gap-8 sm:flex-row">
       <div className="flex flex-col order-2 sm:order-1">
-        <p className="text-3xl font-bold my-4">
-          I love to meet smart people with diverse backgrounds.
+        <p className="text-3xl my-4 uppercase">
+          I love to meet <b>smart people with diverse backgrounds</b>
         </p>
         <p className="text-base mb-4">
           As either a corporate finance consultant or an outsourced CFO, I spend
@@ -60,7 +60,7 @@ const WhatILovePage = () => (
     <section className="flex flex-col flex-nowrap container px-4 py-8 items-center sm:items-start gap-16 sm:flex-row">
       <div className="shrink lg:shrink-0 min-w-[250px]">
         <Image
-          src="/assets/images/D_Image.png"
+          src="/assets/images/Chess_2.png"
           alt="Denice Sakakeeny"
           width={410}
           height={455}
@@ -129,7 +129,7 @@ const WhatILovePage = () => (
       </div>
       <div className="flex flex-col items-center gap-4 shrink lg:shrink-0 min-w-[250px] order-1 sm:order-2">
         <Image
-          src="/assets/images/D_Image.png"
+          src="/assets/images/Chess_3.png"
           alt="Denice Sakakeeny"
           width={410}
           height={455}

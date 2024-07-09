@@ -22,9 +22,9 @@ const SupportSection = () => (
     </div>
 
     <div className="flex flex-col">
-      <p className="uppercase text-xs">Chef Problem Solver</p>
+      <p className="uppercase text-xs">Strategic Partner</p>
       <p className="text-3xl sm:text-5xl font-bold mt-4 mb-8">
-        How I Can Support You
+        Driving Your Success
       </p>
 
       <Swiper

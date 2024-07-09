@@ -25,12 +25,14 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
         <header className="flex flex-row justify-center py-4 mb-4">
           <div className="flex flex-col sm:flex-row container px-4 w-full justify-between items-center gap-4">
             <div className="logo flex flex-row items-center gap-4">
-              <Image
-                src="/assets/images/icons/chess_icon.svg"
-                alt="Logo"
-                width={32}
-                height={32}
-              />
+              <a href="/">
+                <Image
+                  src="/assets/images/icons/chess_icon.svg"
+                  alt="Logo"
+                  width={32}
+                  height={32}
+                />
+              </a>
               <div className="logo__content uppercase leading-4">
                 <p className="logo__title text-base">
                   Denice <b>Sakakeeny</b>
@@ -46,11 +48,17 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
                 <li className="nav__item">
                   <a href="/what-i-love">What-I-Love</a>
                 </li>
+                {/* <li className="nav__item"> */}
+                {/*  <a href="/what-i-write">What-I-Write</a> */}
+                {/* </li> */}
                 <li className="nav__item">
-                  <a href="/what-i-write">What-I-Write</a>
-                </li>
-                <li className="nav__item">
-                  <a href="/what-i-write">Let&apos;s chat</a>
+                  <a
+                    href="https://calendly.com/denicesak"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Let&apos;s chat
+                  </a>
                 </li>
               </ul>
             </nav>
