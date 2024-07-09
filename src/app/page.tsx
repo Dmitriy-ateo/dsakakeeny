@@ -25,7 +25,7 @@ const Home = () => (
           Interim or Fractional CFO for select clients.
         </p>
         <Image
-          src="/assets/images/signature.jpg"
+          src="/assets/images/signature.png"
           alt="Signature"
           width={190}
           height={73}

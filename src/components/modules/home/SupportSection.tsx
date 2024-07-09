@@ -14,8 +14,8 @@ const SupportSection = () => (
   <section className="flex flex-col flex-nowrap container px-4 py-8 items-center sm:items-start gap-16 sm:flex-row">
     <div className="shrink">
       <Image
-        src="/assets/images/D_Image.png"
-        alt="Denice Sakakeeny"
+        src="/assets/images/chess.png"
+        alt="Chef Problem Solver"
         width={410}
         height={455}
       />
