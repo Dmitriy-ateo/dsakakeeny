@@ -14,12 +14,29 @@ import {
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "...",
-  description: "...",
+  title: "Denice Sakakeeny",
+  description:
+    "Denice Sakakeeny is a corporate finance consultant and outsourced CFO.",
+  openGraph: {
+    type: "website",
+    url: "https://www.dsakakeeny.com/",
+    title: "Denice Sakakeeny",
+    description:
+      "Denice Sakakeeny is a corporate finance consultant and outsourced CFO.",
+    siteName: "Denice Sakakeeny",
+    images: [{ url: "/assets/images/D_Image.png" }],
+  },
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="en">
+    <head>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Denice Sakakeeny</title>
+      <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+      <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    </head>
     <body className={inter.className}>
       <main className="flex min-h-screen flex-col min-w-0 max-w-full">
         <header className="flex flex-row justify-center py-4 mb-4">
