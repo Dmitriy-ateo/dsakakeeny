@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Denice Sakakeeny is a corporate finance consultant and outsourced CFO.",
     siteName: "Denice Sakakeeny",
-    images: [{ url: "/assets/images/D_Image.png" }],
+    images: [{ url: "https://www.dsakakeeny.com/assets/images/D_Image.png" }],
   },
 };
 
