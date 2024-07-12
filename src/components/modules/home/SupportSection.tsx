@@ -28,7 +28,7 @@ const SupportSection = () => (
       </p>
 
       <Swiper
-        className="max-w-[380px] md:max-w-[400px] lg:max-w-[600px] xl:max-w-[800px] 2xl:max-w-[1000px] w-full mb-8"
+        className="max-w-[350px] sm:max-w-[400px] md:max-w-[400px] lg:max-w-[600px] xl:max-w-[800px] 2xl:max-w-[1000px] w-full mb-8"
         slidesPerView={1}
         modules={[Pagination]}
         loop

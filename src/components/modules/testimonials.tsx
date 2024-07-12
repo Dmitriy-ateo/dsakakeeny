@@ -14,7 +14,7 @@ const TestimonialSection = () => (
     <p className="text-base mb-8"> A few kind words from my clients</p>
 
     <Swiper
-      className="max-w-[380px] md:max-w-[600px] lg:max-w-[800px] xl:max-w-[1000px] 2xl:max-w-[1200px] w-full mb-8"
+      className="max-w-[300px] sm:max-w-[450px] md:max-w-[600px] lg:max-w-[800px] xl:max-w-[1000px] 2xl:max-w-[1200px] w-full mb-8"
       slidesPerView={1}
       spaceBetween={10}
       breakpoints={{

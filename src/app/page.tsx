@@ -16,7 +16,7 @@ const Home = () => (
         <p className="uppercase text-xs">Chef Problem Solver</p>
         <p className="text-5xl font-bold my-4">I&apos;m Denice Sakakeeny.</p>
         <p className="text-base mb-4">
-          With 25+ years in corporate finance, I help founders and executives
+          With 20+ years in corporate finance, I help founders and executives
           solve complex business problems. I prioritize people, processes, and
           technology to drive sustainable growth.
         </p>

@@ -36,7 +36,7 @@ export const EXPERIENCE_ITEMS = [
   {
     id: 1,
     title: "Years of Experience",
-    value: 25,
+    value: 20,
   },
   {
     id: 2,
