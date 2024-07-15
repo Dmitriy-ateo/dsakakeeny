@@ -13,7 +13,7 @@ const Home = () => (
   <article className="flex min-h-screen flex-col items-center">
     <section className="flex flex-col flex-nowrap container px-4 py-8 items-center gap-8 sm:flex-row">
       <div className="flex flex-col order-2 sm:order-1">
-        <p className="uppercase text-xs">Chef Problem Solver</p>
+        <p className="uppercase text-xs">Chief Problem Solver</p>
         <p className="text-5xl font-bold my-4">I&apos;m Denice Sakakeeny.</p>
         <p className="text-base mb-4">
           With 20+ years in corporate finance, I help founders and executives
