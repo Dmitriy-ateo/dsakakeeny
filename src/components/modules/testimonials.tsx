@@ -1,7 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import { TESTIMONIALS } from "@/constants/homeConsts";
 
 import "swiper/css";
@@ -32,12 +32,12 @@ const TestimonialSection = () => (
             spaceBetween: 50,
           },
         }}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]}
         loop
         pagination={{ clickable: true }}
         autoHeight
         autoplay={{
-          delay: 1000,
+          delay: 2500,
           disableOnInteraction: false,
         }}
       >

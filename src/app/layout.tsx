@@ -63,7 +63,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
                   <a href="/">Hi, I&apos;m Denice</a>
                 </li>
                 <li className="nav__item">
-                  <a href="/what-i-love">What-I-Love</a>
+                  <a href="/what-i-love">What I Love</a>
                 </li>
                 {/* <li className="nav__item"> */}
                 {/*  <a href="/what-i-write">What-I-Write</a> */}
